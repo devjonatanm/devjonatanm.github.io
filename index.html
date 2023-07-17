@@ -112,6 +112,10 @@
         }
 
         @media (max-width: 850px) {
+            body {
+                padding: 20px;
+            }
+
             .geral {
                 display: grid;
                 grid-template-columns: 1fr;
@@ -243,7 +247,7 @@
 
         repositorioNoGithub().then((apigit) => {
             console.log(apigit)
-            
+
             let juntando = ``
             for (let i = 0; i < apigit.length; i++) {
                 if (apigit[i].homepage === "" || apigit[i].homepage === null) {
@@ -255,7 +259,7 @@
             }
             let el = document.querySelector("#repo-js");
             el.innerHTML = juntando;
-            
+
         });
     </script>
 </body>
