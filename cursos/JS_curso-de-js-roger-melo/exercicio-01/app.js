@@ -1,53 +1,54 @@
 /*
-01 - Neste diretório (exercicio-01), há um index.html vazio.
+01 - Neste diretório (exercicio-01), há um index.html vazio.✅
 
 Faça o seguinte:
 
-- Declare uma marcação HTML básica nele;
-- Modifique a linguagem para português do Brasil;
-- Remova as meta tags desnecessárias;
-- Modifique o title para "Exercício 01";
-- E linke este arquivo, app.js, antes do fechamento da tag body.
+✅- Declare uma marcação HTML básica nele;
+✅- Modifique a linguagem para português do Brasil;
+✅- Remova as meta tags desnecessárias;
+✅- Modifique o title para "Exercício 01";
+✅- E linke este arquivo, app.js, antes do fechamento da tag body.
 */
 
 /*
-02 - Inicie o seu servidor local e abra o console do browser.
+02 - Inicie o seu servidor local e abra o console do browser.✅
 */
 
 /*
 03 - Para certificar-se que este arquivo realmente está linkado, exiba a frase  
-"JS is Awesome!" em um alert no browser.
+"JS is Awesome!" em um alert no browser.✅
 
 Como mencionei durante a aula: não se preocupe em entender 100% o que os comandos  
-"alert" e "console" fazem. Nós falaremos sobre eles mais à frente =)
+"alert" e "console" fazem. Nós falaremos sobre eles mais à frente =)✅
 
 Utilize os espaços entre os comentários abaixo para executar os códigos dos 
-exercícios. Inclusive o alert mencionado acima.
+exercícios. Inclusive o alert mencionado acima.✅
 */
 
+//alert("JS is Awesome!")
 
 
 /*
-04 - Comente o alert que você escreveu acima, utilizando o comentário de uma linha.
+04 - Comente o alert que você escreveu acima, utilizando o comentário de uma linha.✅
 */
 
 /*
 05 - Declare uma const "myBirthYear", que recebe o ano do seu nascimento, com 4  
-dígitos. Ex.: 1930.
+dígitos. Ex.: 1930.✅
 */
-
+const myBirthYear = 1995
+console.log(myBirthYear)
 
 
 /*
-06 - Declare uma const "currentYear", que recebe o ano atual, com 4 dígitos.
+06 - Declare uma const "currentYear", que recebe o ano atual, com 4 dígitos.✅
 */
-
-
+const currentYear = 2024
 
 /*
-07 - Exiba as const "myBirthYear" e "currentYear", lado a lado, no console do browser.
+07 - Exiba as const "myBirthYear" e "currentYear", lado a lado, no console do browser.✅
 */
-
+console.log(currentYear-myBirthYear)
 
 
 /*
@@ -61,7 +62,7 @@ acontece.
 
 - Exiba a "myAge" no console.
 */
-
+const myAge = currentYear-myBirthYear
 
 
 /*
