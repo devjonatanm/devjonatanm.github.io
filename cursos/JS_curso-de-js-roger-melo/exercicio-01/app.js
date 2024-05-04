@@ -27,7 +27,6 @@ exercícios. Inclusive o alert mencionado acima.✅
 
 //alert("JS is Awesome!")
 
-
 /*
 04 - Comente o alert que você escreveu acima, utilizando o comentário de uma linha.✅
 */
@@ -36,65 +35,63 @@ exercícios. Inclusive o alert mencionado acima.✅
 05 - Declare uma const "myBirthYear", que recebe o ano do seu nascimento, com 4  
 dígitos. Ex.: 1930.✅
 */
-const myBirthYear = 1995
-console.log(myBirthYear)
-
+const myBirthYear = 1995;
+console.log(myBirthYear);
 
 /*
 06 - Declare uma const "currentYear", que recebe o ano atual, com 4 dígitos.✅
 */
-const currentYear = 2024
+const currentYear = 2024;
 
 /*
 07 - Exiba as const "myBirthYear" e "currentYear", lado a lado, no console do browser.✅
 */
-console.log(currentYear-myBirthYear)
-
+console.log(currentYear - myBirthYear);
 
 /*
 08 - Experimente.
 
 - Declare uma const "myAge", que recebe o ano atual subtraído pelo ano do seu  
-nascimento. Mas sem digitar os números manualmente.
+nascimento. Mas sem digitar os números manualmente.✅
 
 Você pode utilizar o sinal de menos (-) entre os dois valores e verificar o que  
-acontece. 
+acontece. ✅
 
-- Exiba a "myAge" no console.
+- Exiba a "myAge" no console.✅
 */
-const myAge = currentYear-myBirthYear
-
+const myAge = currentYear - myBirthYear;
 
 /*
 09 - Antes do console.log abaixo, declare uma const "ten", que recebe o número  
-10 e:
+10 e:✅
 
-- Descomente o console.log;
-- Substitua a palavra "valor1" pelo ano atual somado à 10;
-- Substitua a palavra "valor2" pela sua idade somada à 10;
-- Os números não devem ser digitados manualmente;
-- Observe o resultado no console do browser.
+- Descomente o console.log;✅
+- Substitua a palavra "valor1" pelo ano atual somado à 10;✅
+- Substitua a palavra "valor2" pela sua idade somada à 10;✅
+- Os números não devem ser digitados manualmente;✅
+- Observe o resultado no console do browser.✅
 
 Não se assuste com as crases e os cifrões. Conversaremos mais sobre operações  
-matemáticas e strings (textos) em breve =)
+matemáticas e strings (textos) em breve =)✅
 */
 
-// console.log(`Em ${valor1}, estarei com ${valor2} anos.`)
+const ten = 10;
+console.log(`Em ${ten}, estarei com ${myAge + 10} anos.`);
 
 /*
 10 - Abra o site abaixo no browser e faça o seguinte:
 
 http://whathappenedinmybirthyear.com/
 
-- Abra o console do devtools;
+- Abra o console do devtools;✅
 - Provavelmente, haverão alguns warnings nele. Pressione ctrl + L para limpá-lo;
 - No console do devtools, declare uma const "myBirthYear" que recebe o ano em que  
-você nasceu (4 dígitos) e pressione enter;
+você nasceu (4 dígitos) e pressione enter;✅
 - No final da 1ª linha do código abaixo, substitua SEU_ANO_DE_NASCIMENTO pelo uso  
-da const myBirthYear;
+da const myBirthYear;✅
 - Cole as duas linhas de código no console, pressione enter, feche o console e  
-veja o que acontece.
+veja o que acontece.✅
 
 document.querySelector('#birthYear').value = SEU_ANO_DE_NASCIMENTO
-document.querySelector('.formButton').click()
+document.querySelector('.formButton').click()✅
 */
