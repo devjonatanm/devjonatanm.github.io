@@ -113,7 +113,7 @@ for(let i = 0; i<dogNames.length;i++) {
     adcionar += dogNames[i][0]
 }
 const initials = adcionar
-console.log(initials)
+//console.log(initials)
 
 /*
 10 - Comente o console.log acima e:
@@ -122,7 +122,7 @@ console.log(initials)
 - Utilize o método adequado para isso.
 */
 
-
+//console.log(initials.toLowerCase())
 
 /*
 11 - Comente o console.log acima e:
@@ -140,7 +140,10 @@ constante que você criou.
 'A SOBREMESA é um doce à base de coco, tradicional na América Latina e em Angola.'
 */
 
-
+let cocana = dogNames[0].slice(-2)+dogNames[1].slice(-2)+dogNames[4].slice(-2)
+let cocada = cocana.replace('n','d')
+let string = 'A SOBREMESA é um doce à base de coco, tradicional na América Latina e em Angola.'
+console.log(string.replace('SOBREMESA',cocada))
 
 /*
 12 - Comente o console.log acima e:
