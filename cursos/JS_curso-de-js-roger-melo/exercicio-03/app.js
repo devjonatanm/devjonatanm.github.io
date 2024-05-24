@@ -108,7 +108,11 @@ apenas as letras iniciais dos nomes do array "dogNames";
 */
 
 dogNames.push('Nina')
-const initials = 
+let adcionar = ''
+for(let i = 0; i<dogNames.length;i++) {
+    adcionar += dogNames[i][0]
+}
+const initials = adcionar
 console.log(initials)
 
 /*
