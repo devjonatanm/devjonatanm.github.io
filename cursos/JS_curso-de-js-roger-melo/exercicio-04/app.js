@@ -24,7 +24,7 @@ let myseries = `Minhas 3 séries favoritas são: SÉRIE_01, SÉRIE_02 e SÉRIE_0
     possui 3 itens.
 */
 
-
+console.log(my3FavoriteTVShows.length)
 
 /*
   03 - Comente o console.log() acima e:
@@ -37,6 +37,8 @@ let myseries = `Minhas 3 séries favoritas são: SÉRIE_01, SÉRIE_02 e SÉRIE_0
 */
 
 const randomTVShow = 'Watchmen'
+const isRandomTVShowIncluded = my3FavoriteTVShows.includes(randomTVShow) 
+//console.log(isRandomTVShowIncluded)
 
 /*
   04 - Comente o console.log() acima e:
@@ -49,7 +51,8 @@ const randomTVShow = 'Watchmen'
   "O tipo de dado que a const "isRandomTVShowIncluded" armazena é: TIPO_DE_DADO."
 */
 
-
+const typeSentence = `"O tipo de dado que a const "isRandomTVShowIncluded" armazena é: ${typeof isRandomTVShowIncluded}."`
+//console.log(typeSentence)
 
 /*
   05 - Comente o console.log() acima e:
