@@ -157,3 +157,6 @@ elevado ao cubo, faça o 2º item do array receber todo o valor que ele
 já tem, mais 4;
 - Agora, o resultado exibido no console deve ser 729.
 */
+
+let oddNumbers = [3,5,7]
+console.log(oddNumbers[1] ** 3)
