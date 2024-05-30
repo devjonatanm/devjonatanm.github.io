@@ -21,7 +21,11 @@
     5
 */
 
-
+/* let i = 0;
+while (i <= 5) {
+  console.log(i);
+  ++i;
+} */
 
 /*
   02 - Comente a declaração da let e o loop acima e:
@@ -29,7 +33,9 @@
   - Utilizando um for loop, faça o mesmo que foi pedido no exercício 01.
 */
 
-
+/* for (let i = 0; i <= 5; i++) {
+  console.log(i);
+} */
 
 /*
   03 - Comente o loop acima e:
@@ -42,8 +48,6 @@
   "Esta é a Xª vez que esta frase é exibida no console."
 */
 
-
-
 /*
   04 - Comente o loop acima e:
 
@@ -54,7 +58,7 @@
   - Para ver se deu certo, exiba o upperCaseCities no console.
 */
 
-const cities = ['São Paulo', 'Rio de Janeiro', 'Minas Gerais']
+const cities = ["São Paulo", "Rio de Janeiro", "Minas Gerais"];
 
 /*
   05 - Comente o console.log acima e:
@@ -65,7 +69,7 @@ const cities = ['São Paulo', 'Rio de Janeiro', 'Minas Gerais']
     <li>João Grilo</li><li>Chicó</li><li>Rosinha</li>
 */
 
-const names = ['João Grilo', 'Chicó', 'Rosinha']
+const names = ["João Grilo", "Chicó", "Rosinha"];
 
 /*
   06 - Comente o console.log acima e:
@@ -76,7 +80,7 @@ const names = ['João Grilo', 'Chicó', 'Rosinha']
   - O console deve exibir true.
 */
 
-const numbers = ['91', '5', '30', '97', '83', '31']
+const numbers = ["91", "5", "30", "97", "83", "31"];
 
 /*
   07 - Comente o console.log acima.
@@ -100,5 +104,5 @@ const arrays = [
   [4, 32, 8],
   [64, 8, 32],
   [8, 32, 16],
-  [2, 8, 4]
-]
+  [2, 8, 4],
+];
