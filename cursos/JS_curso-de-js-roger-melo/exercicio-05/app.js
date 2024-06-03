@@ -48,6 +48,10 @@ while (i <= 5) {
   "Esta é a Xª vez que esta frase é exibida no console."
 */
 
+for (let x = 0; x <= 10; x++) {
+  console.log("Esta é a " + x + "ª vez que esta frase é exibida no console.");
+}
+
 /*
   04 - Comente o loop acima e:
 
