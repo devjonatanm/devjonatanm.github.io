@@ -48,9 +48,9 @@ while (i <= 5) {
   "Esta é a Xª vez que esta frase é exibida no console."
 */
 
-for (let x = 0; x <= 10; x++) {
+/* for (let x = 0; x <= 10; x++) {
   console.log("Esta é a " + x + "ª vez que esta frase é exibida no console.");
-}
+} */
 
 /*
   04 - Comente o loop acima e:
@@ -63,6 +63,11 @@ for (let x = 0; x <= 10; x++) {
 */
 
 const cities = ["São Paulo", "Rio de Janeiro", "Minas Gerais"];
+let upperCaseCities = [];
+for (let i = 0; i <= cities.length - 1; i++) {
+  upperCaseCities[i] = cities[i].toUpperCase();
+}
+console.log(upperCaseCities);
 
 /*
   05 - Comente o console.log acima e:
