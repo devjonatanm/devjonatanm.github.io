@@ -67,7 +67,7 @@ let upperCaseCities = [];
 for (let i = 0; i <= cities.length - 1; i++) {
   upperCaseCities[i] = cities[i].toUpperCase();
 }
-console.log(upperCaseCities);
+//console.log(upperCaseCities);
 
 /*
   05 - Comente o console.log acima e:
@@ -79,6 +79,11 @@ console.log(upperCaseCities);
 */
 
 const names = ["João Grilo", "Chicó", "Rosinha"];
+let vazio = ``
+for(let i = 0;i<=names.length-1;i++){
+  vazio += `${'<li>'} ${names[i]} ${'<li>'}` 
+}
+console.log(vazio)
 
 /*
   06 - Comente o console.log acima e:
