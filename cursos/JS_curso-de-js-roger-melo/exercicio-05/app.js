@@ -79,11 +79,11 @@ for (let i = 0; i <= cities.length - 1; i++) {
 */
 
 const names = ["João Grilo", "Chicó", "Rosinha"];
-let vazio = ``
-for(let i = 0;i<=names.length-1;i++){
-  vazio += `${'<li>'} ${names[i]} ${'<li>'}` 
+let vazio = ``;
+for (let i = 0; i <= names.length - 1; i++) {
+  vazio += `${"<li>"} ${names[i]} ${"<li>"}`;
 }
-console.log(vazio)
+//console.log(vazio)
 
 /*
   06 - Comente o console.log acima e:
@@ -95,6 +95,11 @@ console.log(vazio)
 */
 
 const numbers = ["91", "5", "30", "97", "83", "31"];
+let somatorio = 0;
+for (let i = 0; i <= numbers.length - 1; i++) {
+  somatorio += Number(numbers[i]);
+}
+console.log(somatorio === 337);
 
 /*
   07 - Comente o console.log acima.
