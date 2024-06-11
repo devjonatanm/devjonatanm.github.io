@@ -99,7 +99,7 @@ let somatorio = 0;
 for (let i = 0; i <= numbers.length - 1; i++) {
   somatorio += Number(numbers[i]);
 }
-console.log(somatorio === 337);
+//console.log(somatorio === 337);
 
 /*
   07 - Comente o console.log acima.
@@ -125,3 +125,11 @@ const arrays = [
   [8, 32, 16],
   [2, 8, 4],
 ];
+
+let soma = 0;
+for (let i = 0; i < arrays.length; i++) {
+  for (let j = 0; j < arrays[i].length; j++) {
+    soma += arrays[i][j];
+  }
+}
+console.log(soma);
