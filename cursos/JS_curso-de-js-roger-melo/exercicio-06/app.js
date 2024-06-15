@@ -46,7 +46,7 @@ const fruits = ["morango", "banana", "mamão"];
   lógico precisam ter a constante especificada. Exemplo: hour > x && hour < y.
 */
 
-let now = new Date();
+/* let now = new Date();
 
 if (now.getHours() >= 6 && now.getHours() < 12) {
   console.log("Bom dia!")
@@ -54,7 +54,7 @@ if (now.getHours() >= 6 && now.getHours() < 12) {
   console.log("Boa tarde!")
 }else{
   console.log("Boa noite!")
-}
+} */
 
 /*
   03
@@ -69,6 +69,13 @@ if (now.getHours() >= 6 && now.getHours() < 12) {
   - Agora, teste diferentes idades para se certificar que a condição do `if`  
     também está funcionando.
 */
+
+const age = 29;
+if (age <= 7 || age >= 65) {
+  console.log("Para você, a entrada é grátis!");
+} else {
+  console.log("A entrada é R$ 30,00.");
+}
 
 /*
   04
