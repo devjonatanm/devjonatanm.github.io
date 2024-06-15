@@ -70,12 +70,12 @@ if (now.getHours() >= 6 && now.getHours() < 12) {
     também está funcionando.
 */
 
-const age = 29;
+/* const age = 29;
 if (age <= 7 || age >= 65) {
   console.log("Para você, a entrada é grátis!");
 } else {
   console.log("A entrada é R$ 30,00.");
-}
+} */
 
 /*
   04
@@ -87,6 +87,13 @@ if (age <= 7 || age >= 65) {
 */
 
 const numbers = [7, 92, 34, 46, 90, 25, 11, 3, 89, 76, 99];
+let newArray = [];
+for (let i = 0; i <= numbers.length; i++) {
+  if (numbers[i] >= 11 && numbers[i] <= 90) {
+    newArray.push(numbers[i]);
+  }
+}
+console.log(newArray);
 
 /*
   05
