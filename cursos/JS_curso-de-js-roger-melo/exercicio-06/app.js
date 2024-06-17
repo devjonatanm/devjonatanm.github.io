@@ -86,14 +86,14 @@ if (age <= 7 || age >= 65) {
   - O resultado deve ser: [34, 46, 90, 25, 11, 89, 76].
 */
 
-const numbers = [7, 92, 34, 46, 90, 25, 11, 3, 89, 76, 99];
+/* const numbers = [7, 92, 34, 46, 90, 25, 11, 3, 89, 76, 99];
 let newArray = [];
 for (let i = 0; i <= numbers.length; i++) {
   if (numbers[i] >= 11 && numbers[i] <= 90) {
     newArray.push(numbers[i]);
   }
 }
-console.log(newArray);
+console.log(newArray); */
 
 /*
   05
@@ -121,6 +121,22 @@ const crazyArray = [
   "js",
   false,
 ];
+
+let boo = 0;
+let num = 0;
+let str = 0;
+
+for (let i = 0; i < crazyArray.length; i++) {
+  if (typeof crazyArray[i] === "boolean") {
+    ++boo;
+  } else if (typeof crazyArray[i] === "number") {
+    ++num;
+  } else {
+    ++str;
+  }
+}
+
+console.log(`O crazyArray tem ${boo} booleans,  ${num} números e  ${str} strings.`)
 
 /*
   06
