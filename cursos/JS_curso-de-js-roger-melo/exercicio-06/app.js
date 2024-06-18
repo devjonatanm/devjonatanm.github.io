@@ -136,7 +136,7 @@ for (let i = 0; i < crazyArray.length; i++) {
   }
 }
 
-console.log(`O crazyArray tem ${boo} booleans,  ${num} números e  ${str} strings.`)
+//console.log(`O crazyArray tem ${boo} booleans,  ${num} números e  ${str} strings.`)
 
 /*
   06
@@ -156,3 +156,16 @@ console.log(`O crazyArray tem ${boo} booleans,  ${num} números e  ${str} string
 */
 
 const randomNumbers = [73, 4, 67, 10, 31, 58];
+
+let pares = [];
+let impares = [];
+
+for (let i = 0; i < randomNumbers.length; i++) {
+  if (randomNumbers[i] % 2 === 0) {
+    pares.push(randomNumbers[i]);
+  } else {
+    impares.push(randomNumbers[i]);
+  }
+}
+
+console.log(`Numeros ímpares: ${impares}. Números pares: ${pares}`)
