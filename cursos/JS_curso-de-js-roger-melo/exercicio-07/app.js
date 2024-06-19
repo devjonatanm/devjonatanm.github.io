@@ -5,7 +5,8 @@
   - O resultado exibido no console deve ser: false true.
 */
 
-console.log(true, false)
+//console.log(true, false)
+//console.log(!true, !false)
 
 /*
   02
@@ -16,7 +17,12 @@ console.log(true, false)
   - Se existir, exiba no console a mensagem "Existe um leão no array animals.".
 */
 
-const animals = ['macaco', 'tucano', 'elefante', 'pavão', 'hipopótamo']
+const animals = ["macaco", "tucano", "elefante", "pavão", "hipopótamo"];
+if (animals.includes("leão")) {
+  console.log("Existe um leão no array animals.");
+} else {
+  console.log("Leão não existe no array animals.");
+}
 
 /*
   03
@@ -29,7 +35,7 @@ const animals = ['macaco', 'tucano', 'elefante', 'pavão', 'hipopótamo']
   "A soma ultrapassou 400. Até aqui, o valor atual é RESULTADO_DA_SOMA."
 */
 
-const randomNumbers = [59, 61, 73, 57, 35, 73, 21, 87, 43]
+const randomNumbers = [59, 61, 73, 57, 35, 73, 21, 87, 43];
 
 /*
   04
@@ -40,7 +46,16 @@ const randomNumbers = [59, 61, 73, 57, 35, 73, 21, 87, 43]
   - Exiba a frase no console.
 */
 
-const sentence = ['A', 'certeza', 'dúvida', 'é', 'o', 'princípio', 'da', 'sabedoria.']
+const sentence = [
+  "A",
+  "certeza",
+  "dúvida",
+  "é",
+  "o",
+  "princípio",
+  "da",
+  "sabedoria.",
+];
 
 /*
   05
@@ -57,7 +72,27 @@ const sentence = ['A', 'certeza', 'dúvida', 'é', 'o', 'princípio', 'da', 'sab
   "
 */
 
-const randomValues = [57, false, 'JS', [], true, 'HTML', 31, null, false, 'CSS', 97, true, 'Git', 11, 'sticker', false, 'GitHub', true, null]
+const randomValues = [
+  57,
+  false,
+  "JS",
+  [],
+  true,
+  "HTML",
+  31,
+  null,
+  false,
+  "CSS",
+  97,
+  true,
+  "Git",
+  11,
+  "sticker",
+  false,
+  "GitHub",
+  true,
+  null,
+];
 
 /*
   06
@@ -89,7 +124,7 @@ const randomValues = [57, false, 'JS', [], true, 'HTML', 31, null, false, 'CSS',
     para testar o switch que você escreveu.
 */
 
-const a = 2
+const a = 2;
 
 // if (a === 0) {
 //   console.log(`O valor de "a" é ${a}`)
