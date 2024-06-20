@@ -17,12 +17,12 @@
   - Se existir, exiba no console a mensagem "Existe um leão no array animals.".
 */
 
-const animals = ["macaco", "tucano", "elefante", "pavão", "hipopótamo"];
+/* const animals = ["macaco", "tucano", "elefante", "pavão", "hipopótamo"];
 if (animals.includes("leão")) {
   console.log("Existe um leão no array animals.");
 } else {
   console.log("Leão não existe no array animals.");
-}
+} */
 
 /*
   03
@@ -36,6 +36,15 @@ if (animals.includes("leão")) {
 */
 
 const randomNumbers = [59, 61, 73, 57, 35, 73, 21, 87, 43];
+let sumAll = 0
+for(let i=0;i<randomNumbers.length;i++){
+  if(sumAll<=400){
+    sumAll+= randomNumbers[i]
+  }
+}
+console.log(`A soma ultrapassou 400. Até aqui, o valor atual é ${sumAll}.`)
+
+
 
 /*
   04
