@@ -71,7 +71,7 @@ for (let i = 0; i < sentence.length; i++) {
   }
 }
 
-console.log(frase.join(' '));
+//console.log(frase.join(' '));
 
 /*
   05
@@ -109,6 +109,29 @@ const randomValues = [
   true,
   null,
 ];
+
+let iteracoes = 0;
+let boo = 0;
+let firstFourStrings = 0;
+let togetherStrings = []
+
+for (let i = 0; i < randomValues.length; i++) {
+  if (firstFourStrings < 4) {
+    if (typeof randomValues[i] === "boolean") {
+      ++boo;
+    }
+    if (typeof randomValues[i] === "string") {
+      ++firstFourStrings;
+      togetherStrings.push(randomValues[i])
+    }
+    ++iteracoes;
+  }
+}
+
+console.log(`3 informações sobre o array randomValues:
+      - As primeiras 4 strings são ${togetherStrings[0]}, ${togetherStrings[1]}, ${togetherStrings[2]} e ${togetherStrings[3]};
+      - Até que as primeiras 4 strings fossem iteradas, ${boo} booleans foram iterados;
+      - O array foi iterado por ${iteracoes} vezes.`)
 
 /*
   06
