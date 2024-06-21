@@ -36,15 +36,13 @@ if (animals.includes("leão")) {
 */
 
 const randomNumbers = [59, 61, 73, 57, 35, 73, 21, 87, 43];
-let sumAll = 0
-for(let i=0;i<randomNumbers.length;i++){
-  if(sumAll<=400){
-    sumAll+= randomNumbers[i]
+let sumAll = 0;
+for (let i = 0; i < randomNumbers.length; i++) {
+  if (sumAll <= 400) {
+    sumAll += randomNumbers[i];
   }
 }
-console.log(`A soma ultrapassou 400. Até aqui, o valor atual é ${sumAll}.`)
-
-
+//console.log(`A soma ultrapassou 400. Até aqui, o valor atual é ${sumAll}.`)
 
 /*
   04
@@ -65,6 +63,15 @@ const sentence = [
   "da",
   "sabedoria.",
 ];
+let frase = [];
+
+for (let i = 0; i < sentence.length; i++) {
+  if (sentence[i] !== "certeza") {
+    frase.push(sentence[i]);
+  }
+}
+
+console.log(frase.join(' '));
 
 /*
   05
