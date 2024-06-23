@@ -128,11 +128,11 @@ for (let i = 0; i < randomValues.length; i++) {
   }
 }
 
-console.log(`3 informações sobre o array randomValues:
+/* console.log(`3 informações sobre o array randomValues:
       - As primeiras 4 strings são ${togetherStrings[0]}, ${togetherStrings[1]}, ${togetherStrings[2]} e ${togetherStrings[3]};
       - Até que as primeiras 4 strings fossem iteradas, ${boo} booleans foram iterados;
       - O array foi iterado por ${iteracoes} vezes.`)
-
+ */
 /*
   06
 
@@ -153,7 +153,19 @@ console.log(`3 informações sobre o array randomValues:
     da bebida além da que você escolheu.
 */
 
-// const drinkType
+const drinkType = 'suco'
+switch(drinkType){
+  case 'água':
+    console.log('Substância química cujas moléculas são formadas por dois átomos de hidrogênio e um de oxigênio.')
+    break
+  case 'refrigerante':
+    console.log('Bebida não alcoólica e não fermentada, fabricada industrialmente, à base de água mineral e açúcar.')
+    break
+  case 'suco':
+    console.log('Bebida produzida do líquido extraído de frutos.')
+    break
+  
+}
 
 /*
   07
