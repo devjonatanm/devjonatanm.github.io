@@ -7,10 +7,10 @@
   - Exiba o resultado no console, sem inserir um console.log() dentro da função.
 */
 
-function multiplica(a = 1, b = 0) {
+/* function multiplica(a = 1, b = 0) {
   return a * b;
 }
-console.log(multiplica(5, 5));
+console.log(multiplica(5, 5)); */
 
 /*
   02
@@ -19,6 +19,11 @@ console.log(multiplica(5, 5));
     **function expression** que retorne o resultado da **divisão** entre esses  
     2 números.
 */
+
+const dividir = function (a = 1, b = 0) {
+  return a / b;
+};
+console.log(dividir(40, 8));
 
 /*
   03
