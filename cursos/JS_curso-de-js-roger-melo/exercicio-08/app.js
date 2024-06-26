@@ -20,10 +20,10 @@ console.log(multiplica(5, 5)); */
     2 números.
 */
 
-const dividir = function (a = 1, b = 0) {
+/* const dividir = function (a = 1, b = 0) {
   return a / b;
 };
-console.log(dividir(40, 8));
+console.log(dividir(40, 8)); */
 
 /*
   03
@@ -37,6 +37,15 @@ console.log(dividir(40, 8));
 
   "Esta é a Xª vez que essa string é exibida."
 */
+
+function repeteString(x = "defina um valor") {
+  let str = "";
+  for (let i = 0; i < 7; i++) {
+    str += `Esta é a ${i + 1}ª vez que essa string é exibida.\n`;
+  }
+  return str;
+}
+console.log(repeteString());
 
 /*
   04
