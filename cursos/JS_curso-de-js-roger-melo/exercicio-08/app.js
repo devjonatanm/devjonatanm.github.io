@@ -38,14 +38,14 @@ console.log(dividir(40, 8)); */
   "Esta é a Xª vez que essa string é exibida."
 */
 
-function repeteString(x = "defina um valor") {
+/* function repeteString(x = "defina um valor") {
   let str = "";
   for (let i = 0; i < 7; i++) {
     str += `Esta é a ${i + 1}ª vez que essa string é exibida.\n`;
   }
   return str;
 }
-console.log(repeteString());
+console.log(repeteString()); */
 
 /*
   04
@@ -75,6 +75,16 @@ const millennialWords = [
   "mood",
   "fail",
 ];
+
+function transfArray(millennialWords){
+  let newArray = []
+  for(let i=0;i<millennialWords.length;i++){
+    newArray.push(millennialWords[i].toUpperCase())
+  }
+  return newArray
+}
+
+console.log(transfArray(millennialWords))
 
 /*
   05
