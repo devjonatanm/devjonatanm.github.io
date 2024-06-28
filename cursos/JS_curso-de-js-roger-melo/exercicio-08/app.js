@@ -76,7 +76,7 @@ const millennialWords = [
   "fail",
 ];
 
-function transfArray(millennialWords){
+/* function transfArray(millennialWords){
   let newArray = []
   for(let i=0;i<millennialWords.length;i++){
     newArray.push(millennialWords[i].toUpperCase())
@@ -84,7 +84,7 @@ function transfArray(millennialWords){
   return newArray
 }
 
-console.log(transfArray(millennialWords))
+console.log(transfArray(millennialWords)) */
 
 /*
   05
@@ -98,6 +98,20 @@ console.log(transfArray(millennialWords))
 */
 
 const randomNumbers = [-2, 93, 34, -1, 1, 93, 11, -7, 47, -3];
+function verificNumbers(randomNumbers) {
+  let positiv = [];
+  let negativ = [];
+  for (let i = 0; i < randomNumbers.length; i++) {
+    if (Math.sign(randomNumbers[i]) === -1) {
+      negativ.push(randomNumbers[i]);
+    } else {
+      positiv.push(randomNumbers[i]);
+    }
+  }
+
+  return `O array "randomNumbers" possui ${randomNumbers.length} números, sendo ${positiv.length} positivos e ${negativ.length} negativos.`;
+}
+console.log(verificNumbers(randomNumbers));
 
 /*
   06
