@@ -97,7 +97,7 @@ console.log(transfArray(millennialWords)) */
   "O array "randomNumbers" possui XX números, sendo XX positivos e XX negativos."
 */
 
-const randomNumbers = [-2, 93, 34, -1, 1, 93, 11, -7, 47, -3];
+/* const randomNumbers = [-2, 93, 34, -1, 1, 93, 11, -7, 47, -3];
 function verificNumbers(randomNumbers) {
   let positiv = [];
   let negativ = [];
@@ -112,7 +112,7 @@ function verificNumbers(randomNumbers) {
   return `O array "randomNumbers" possui ${randomNumbers.length} números, sendo ${positiv.length} positivos e ${negativ.length} negativos.`;
 }
 console.log(verificNumbers(randomNumbers));
-
+ */
 /*
   06
 
@@ -123,7 +123,19 @@ console.log(verificNumbers(randomNumbers));
     função.
 */
 
-// getOddNumbers([83, 52, 31, 73, 98, 37, 61, 56, 12, 24, 35, 3, 34, 80, 42])
+function getOddNumbers(numbers) {
+  let impares = [];
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 !== 0) {
+      impares.push(numbers[i]);
+    }
+  }
+  return impares;
+}
+
+console.log(
+  getOddNumbers([83, 52, 31, 73, 98, 37, 61, 56, 12, 24, 35, 3, 34, 80, 42])
+);
 
 /*
   07
