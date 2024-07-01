@@ -123,7 +123,7 @@ console.log(verificNumbers(randomNumbers));
     função.
 */
 
-function getOddNumbers(numbers) {
+/* function getOddNumbers(numbers) {
   let impares = [];
   for (let i = 0; i < numbers.length; i++) {
     if (numbers[i] % 2 !== 0) {
@@ -135,7 +135,7 @@ function getOddNumbers(numbers) {
 
 console.log(
   getOddNumbers([83, 52, 31, 73, 98, 37, 61, 56, 12, 24, 35, 3, 34, 80, 42])
-);
+); */
 
 /*
   07
@@ -229,3 +229,10 @@ const functions = [
     return "Ocidentais.";
   },
 ];
+
+let juntaFuncoes = [];
+for (let i = 0; i < functions.length; i++) {
+  juntaFuncoes.push(functions[i]());
+}
+
+console.log(juntaFuncoes.join(' '));
