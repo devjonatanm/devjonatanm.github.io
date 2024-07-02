@@ -13,9 +13,15 @@
     valor no console.
 */
 
-function convertToString (value) {
+/* function convertToString (value) {
+  return String(value)
+} */
+
+const convertToString = (value) => {
   return String(value)
 }
+console.log(convertToString(56484988))
+console.log(convertToString('hehehehe'))
 
 /*
   02
