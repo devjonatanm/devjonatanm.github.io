@@ -17,11 +17,11 @@
   return String(value)
 } */
 
-const convertToString = (value) => {
+/* const convertToString = (value) => {
   return String(value)
 }
 console.log(convertToString(56484988))
-console.log(convertToString('hehehehe'))
+console.log(convertToString('hehehehe')) */
 
 /*
   02
@@ -29,6 +29,11 @@ console.log(convertToString('hehehehe'))
   - Crie uma função que retorne a quantidade de caracteres que uma string  
     recebida por parâmetro possui.
 */
+
+function contaString(value){
+  return value.length
+}
+console.log(contaString('jonatan'))
 
 /*
   03
