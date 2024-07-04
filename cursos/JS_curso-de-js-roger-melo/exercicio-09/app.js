@@ -30,10 +30,10 @@ console.log(convertToString('hehehehe')) */
     recebida por parâmetro possui.
 */
 
-function contaString(value){
+/* function contaString(value){
   return value.length
 }
-console.log(contaString('jonatan'))
+console.log(contaString('jonatan')) */
 
 /*
   03
@@ -44,6 +44,11 @@ console.log(contaString('jonatan'))
 
   "CHOCOTONE E OVO DE PÁSCOA JUNTOS NO MERCADO EM PLENO FEVEREIRO"
 */
+
+function tranfMinusc(valor){
+  return valor.toLowerCase()
+}
+console.log(tranfMinusc("CHOCOTONE E OVO DE PÁSCOA JUNTOS NO MERCADO EM PLENO FEVEREIRO"))
 
 /*
   04
