@@ -45,10 +45,10 @@ console.log(contaString('jonatan')) */
   "CHOCOTONE E OVO DE PÁSCOA JUNTOS NO MERCADO EM PLENO FEVEREIRO"
 */
 
-function tranfMinusc(valor){
+/* function tranfMinusc(valor){
   return valor.toLowerCase()
 }
-console.log(tranfMinusc("CHOCOTONE E OVO DE PÁSCOA JUNTOS NO MERCADO EM PLENO FEVEREIRO"))
+console.log(tranfMinusc("CHOCOTONE E OVO DE PÁSCOA JUNTOS NO MERCADO EM PLENO FEVEREIRO")) */
 
 /*
   04
@@ -56,6 +56,10 @@ console.log(tranfMinusc("CHOCOTONE E OVO DE PÁSCOA JUNTOS NO MERCADO EM PLENO F
   - Crie uma função que recebe 2 parâmetros: um caractere e uma string;
   - Ao ser invocada, a função deve retornar o index do caractere na string.
 */
+function caracAndString(carac,stringg){
+  return stringg.indexOf(carac)
+}
+console.log(caracAndString('t','jonatan'))
 
 /*
   05
