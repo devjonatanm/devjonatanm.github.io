@@ -56,10 +56,10 @@ console.log(tranfMinusc("CHOCOTONE E OVO DE PÁSCOA JUNTOS NO MERCADO EM PLENO F
   - Crie uma função que recebe 2 parâmetros: um caractere e uma string;
   - Ao ser invocada, a função deve retornar o index do caractere na string.
 */
-function caracAndString(carac,stringg){
+/* function caracAndString(carac,stringg){
   return stringg.indexOf(carac)
 }
-console.log(caracAndString('t','jonatan'))
+console.log(caracAndString('t','jonatan')) */
 
 /*
   05
@@ -67,6 +67,12 @@ console.log(caracAndString('t','jonatan'))
   - Crie uma função que, ao ser invocada, retorna um boolean indicando se o item  
     passado por argumento existe no array (também passado por argumento).
 */
+
+function contenIntenArray(item){
+  let array = [1,5,8,9,7,4,6,1,2,7,8,1,6]
+  return array.includes(item)
+}
+console.log(contenIntenArray(3))
 
 /*
   06
