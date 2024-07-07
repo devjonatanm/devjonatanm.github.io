@@ -68,11 +68,11 @@ console.log(caracAndString('t','jonatan')) */
     passado por argumento existe no array (também passado por argumento).
 */
 
-function contenIntenArray(item){
+/* function contenIntenArray(item){
   let array = [1,5,8,9,7,4,6,1,2,7,8,1,6]
   return array.includes(item)
 }
-console.log(contenIntenArray(3))
+console.log(contenIntenArray(3)) */
 
 /*
   06
@@ -80,6 +80,11 @@ console.log(contenIntenArray(3))
   - Crie uma função que retorna a concatenação de 2 arrays, passados como  
     argumentos em sua invocação;
 */
+
+function juntaArrays(array1,array2){
+  return array1.concat(array2)
+}
+console.log(juntaArrays([1,2,3,4,5],[6,7,8,9,10]))
 
 /*
   07
