@@ -81,10 +81,10 @@ console.log(contenIntenArray(3)) */
     argumentos em sua invocação;
 */
 
-function juntaArrays(array1,array2){
+/* function juntaArrays(array1,array2){
   return array1.concat(array2)
 }
-console.log(juntaArrays([1,2,3,4,5],[6,7,8,9,10]))
+console.log(juntaArrays([1,2,3,4,5],[6,7,8,9,10])) */
 
 /*
   07
@@ -92,6 +92,12 @@ console.log(juntaArrays([1,2,3,4,5],[6,7,8,9,10]))
   - Crie uma função que retorna o array passado como argumento em sua invocação,  
     mas com o último item removido.
 */
+
+function removeUltimoItem(array){
+  array.pop() // faz remoção do ultimo item
+  return array
+}
+console.log(removeUltimoItem([0,1,2,3,4,5,6]))
 
 /*
   08
