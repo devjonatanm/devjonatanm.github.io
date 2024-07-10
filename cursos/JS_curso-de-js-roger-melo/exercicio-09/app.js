@@ -106,7 +106,7 @@ console.log(removeUltimoItem([0,1,2,3,4,5,6])) */
     invocação é null.
 */
 
-function seEnull(x) {
+/* function seEnull(x) {
   let argumento = "";
   if (x === null) {
     argumento = x+", sim é null";
@@ -118,7 +118,7 @@ function seEnull(x) {
 console.log(seEnull(null));
 console.log(seEnull());
 console.log(seEnull('null'));
-console.log(seEnull('hahahah'));
+console.log(seEnull('hahahah')); */
 
 /*
   09
@@ -130,6 +130,17 @@ console.log(seEnull('hahahah'));
     argumento a função que exibe seu nome no console e veja se o nome realmente  
     foi exibido.
 */
+
+function mostraNome(){
+  return 'Jonatan Marques'
+}
+
+function outraParaGerar(callback){
+  return callback()
+}
+
+console.log(outraParaGerar(mostraNome))
+
 
 /*
   10
