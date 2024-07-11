@@ -131,7 +131,7 @@ console.log(seEnull('hahahah')); */
     foi exibido.
 */
 
-function mostraNome(){
+/* function mostraNome(){
   return 'Jonatan Marques'
 }
 
@@ -139,7 +139,7 @@ function outraParaGerar(callback){
   return callback()
 }
 
-console.log(outraParaGerar(mostraNome))
+console.log(outraParaGerar(mostraNome)) */
 
 
 /*
@@ -152,6 +152,8 @@ console.log(outraParaGerar(mostraNome))
   - Faça com que a invocação da função descrita no 1º item deste exercício (10)  
     resulte no triplo de 33.
 */
+
+
 
 /*
   11
