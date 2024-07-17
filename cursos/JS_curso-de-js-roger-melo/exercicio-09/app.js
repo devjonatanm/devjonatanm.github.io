@@ -153,7 +153,7 @@ console.log(outraParaGerar(mostraNome)) */
     resulte no triplo de 33.
 */
 
-function fazTriplo(num){
+/* function fazTriplo(num){
   return num * 3
 }
 
@@ -161,7 +161,7 @@ function callbackDoTriplo(triplo){
   return fazTriplo(triplo)
 }
 
-console.log(callbackDoTriplo(33))
+console.log(callbackDoTriplo(33)) */
 
 /*
   11
