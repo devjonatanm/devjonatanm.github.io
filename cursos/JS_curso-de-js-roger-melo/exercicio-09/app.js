@@ -173,6 +173,7 @@ console.log(callbackDoTriplo(33)) */
 */
 
 const numbers = [1, 2, 3];
+numbers.forEach(x => console.log(`O ${x}º item do array [${numbers}] é ${x}.`))
 
 /*
   12
