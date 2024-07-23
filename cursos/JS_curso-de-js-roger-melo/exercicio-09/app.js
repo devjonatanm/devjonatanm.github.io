@@ -141,7 +141,6 @@ function outraParaGerar(callback){
 
 console.log(outraParaGerar(mostraNome)) */
 
-
 /*
   10
 
@@ -172,8 +171,8 @@ console.log(callbackDoTriplo(33)) */
   "O Xº item do array [X, X, X] é X."
 */
 
-const numbers = [1, 2, 3];
-numbers.forEach(x => console.log(`O ${x}º item do array [${numbers}] é ${x}.`))
+/* const numbers = [1, 2, 3];
+numbers.forEach(x => console.log(`O ${x}º item do array [${numbers}] é ${x}.`)) */
 
 /*
   12
@@ -186,9 +185,12 @@ numbers.forEach(x => console.log(`O ${x}º item do array [${numbers}] é ${x}.`)
 const letters = ["v", "e", "p"];
 let lettersCopy = [];
 
-for (let i = 0; i < letters.length; i++) {
+/* for (let i = 0; i < letters.length; i++) {
   lettersCopy.push(letters[i]);
-}
+} */
+letters.forEach((x) => lettersCopy.push(x));
+
+console.log(lettersCopy);
 
 /*
   13
