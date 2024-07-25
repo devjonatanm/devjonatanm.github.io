@@ -188,9 +188,9 @@ let lettersCopy = [];
 /* for (let i = 0; i < letters.length; i++) {
   lettersCopy.push(letters[i]);
 } */
-letters.forEach((x) => lettersCopy.push(x));
+/* letters.forEach((x) => lettersCopy.push(x));
 
-console.log(lettersCopy);
+console.log(lettersCopy); */
 
 /*
   13
@@ -219,7 +219,11 @@ const review = [
   "Recomendo esse livro pra quem curte uma boa história de ficção. Apesar de muita gente pensar que o livro não tem graça, porque o legal mesmo é ver o dinossauro no filme, com todos os efeitos especiais, eu digo pra deixar esse pensamento de lado, pois a história é tão bem contada e os detalhes são tão bem relatados, que você passa a fazer parte da história, e vive todas as emoções hahaha.",
 ];
 
+//let paragraphs = "";
 let paragraphs = "";
+for (let i = 0; i < review.length; i++) {
+  paragraphs += `<p>${review[i]}</p>`;
+}
 
 section.innerHTML = paragraphs;
 
