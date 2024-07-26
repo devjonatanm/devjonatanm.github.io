@@ -10,6 +10,16 @@
   - Exiba o objeto no console.
 */
 
+let objeto = {
+  name: "Tijolinho",
+  age: 5,
+  color: "Gray",
+  bestFriends: ["Flajotinha", "Tom", "Garfield"],
+  sound: function miar() {
+    return "Miau";
+  },
+};
+
 /*
   02
 
@@ -68,13 +78,18 @@
   - Como você refatoraria esta função?
 */
 
-const isAnSUV = car => {
-  if (car === 'Honda HR-V' || car === 'Jeep Renegade' || car === 'Ford EcoSport' || car === 'Hyundai iX35') {
-    return true
+const isAnSUV = (car) => {
+  if (
+    car === "Honda HR-V" ||
+    car === "Jeep Renegade" ||
+    car === "Ford EcoSport" ||
+    car === "Hyundai iX35"
+  ) {
+    return true;
   }
 
-  return false
-}
+  return false;
+};
 
 // console.log(isAnSUV('Honda Civic'))
 // console.log(isAnSUV('Ford EcoSport'))
