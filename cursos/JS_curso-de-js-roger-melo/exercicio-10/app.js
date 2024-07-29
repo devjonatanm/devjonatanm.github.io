@@ -10,11 +10,11 @@
   - Exiba o objeto no console.
 */
 
-let objeto = {
+let cat = {
   name: "Tijolinho",
   age: 5,
   color: "Gray",
-  bestFriends: ["Flajotinha", "Tom", "Garfield"],
+  bestFriends: ["Flajotinha", "Garfield"],
   sound: function miar() {
     return "Miau";
   },
@@ -28,6 +28,9 @@ let objeto = {
 
   Até aqui, o objeto "cat" possui as seguintes propriedades e valores: "name", que recebeu "X", "age", que recebeu "X", "color", que recebeu "X", "bestFriends", que recebeu um array com os itens "X" e "X", e "sound", que recebeu uma função que retorna "X".
 */
+
+console.log(`Até aqui, o objeto "cat" possui as seguintes propriedades e valores: "name", que recebeu "${cat.name}", "age", que recebeu "${cat.age}", "color", que recebeu "${cat.color}", "bestFriends", que recebeu um array com os itens "${cat.bestFriends[0]}" e "${cat.bestFriends[1]}", e "sound", que recebeu uma função que retorna "${cat.sound}".
+`);
 
 /*
   03
