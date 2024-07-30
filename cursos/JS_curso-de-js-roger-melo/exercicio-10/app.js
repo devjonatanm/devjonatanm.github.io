@@ -38,7 +38,7 @@ let cat = {
 */
 
 cat.age += 2;
-console.log(cat.age);
+//console.log(cat.age);
 
 /*
   04
@@ -47,6 +47,12 @@ console.log(cat.age);
   - Exiba o array de amigos no console para verificar se o novo amigo(a) foi  
     adicionado.
 */
+
+function addFriend(){
+  cat.bestFriends.push('Tom') 
+}
+addFriend()
+console.log(cat.bestFriends)
 
 /*
   05
