@@ -52,7 +52,7 @@ function addFriend(){
   cat.bestFriends.push('Tom') 
 }
 addFriend()
-console.log(cat.bestFriends)
+//console.log(cat.bestFriends)
 
 /*
   05
@@ -62,6 +62,12 @@ console.log(cat.bestFriends)
   - Exiba a nova cor do gato no console, também utilizando a sintaxe de  
     colchetes.
 */
+
+function addColor(){
+  cat.color = 'Orange'
+}
+addColor()
+console.log(cat.color)
 
 /*
   06
