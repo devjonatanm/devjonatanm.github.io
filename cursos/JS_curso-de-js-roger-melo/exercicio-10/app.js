@@ -48,10 +48,10 @@ cat.age += 2;
     adicionado.
 */
 
-function addFriend(){
-  cat.bestFriends.push('Tom') 
+function addFriend() {
+  cat.bestFriends.push("Tom");
 }
-addFriend()
+addFriend();
 //console.log(cat.bestFriends)
 
 /*
@@ -63,11 +63,11 @@ addFriend()
     colchetes.
 */
 
-function addColor(){
-  cat.color = 'Orange'
+function addColor() {
+  cat.color = "Orange";
 }
-addColor()
-console.log(cat.color)
+addColor();
+//console.log(cat.color)
 
 /*
   06
@@ -76,6 +76,11 @@ console.log(cat.color)
     parâmetro é um objeto;
   - Utilize a função para exibir no console se "cat" é um objeto.
 */
+
+function isObj(obj) {
+  return typeof obj === "object";
+}
+console.log(isObj(cat));
 
 /*
   07
