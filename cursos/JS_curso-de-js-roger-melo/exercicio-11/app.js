@@ -5,6 +5,8 @@
   - Ela deve ter um escopo global.
 */
 
+const name = "Jonatan";
+
 /*
   02
 
@@ -18,6 +20,13 @@
     defined" será exibido no console;
   - Você sabe por que isso aconteceu?
 */
+
+function ageNow(){
+  let age = 29
+  return age
+}
+
+console.log(ageNow())
 
 /*
   03

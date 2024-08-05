@@ -98,9 +98,7 @@ dog.name = "Beethoven"
 function sumAges(){
   return `A soma das idades de ${cat.name} e ${dog.name} é ${cat.age+dog.age}.`
 }
-
-
-console.log(sumAges())
+//console.log(sumAges())
 
 /*
   08
@@ -138,3 +136,11 @@ const isAnSUV = (car) => {
     propriedades, retorne a mensagem que a propriedade armazena;
   - Teste a função, exibindo no console a mensagem de cada propriedade.
 */
+
+function whatType(type){
+  let objetoo{
+    null: 'Seta, explicitamente, uma variável sem valor.',
+    
+
+  }
+}
