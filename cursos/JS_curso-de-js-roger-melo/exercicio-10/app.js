@@ -80,7 +80,7 @@ addColor();
 function isObj(obj) {
   return typeof obj === "object";
 }
-console.log(isObj(cat));
+//console.log(isObj(cat));
 
 /*
   07
@@ -91,6 +91,16 @@ console.log(isObj(cat));
 
   "A soma das idades de NOME_DO_GATO e NOME_DO_CACHORRO é RESULTADO_DA_SOMA."
 */
+
+const dog = {...cat}
+dog.age = 12
+dog.name = "Beethoven"
+function sumAges(){
+  return `A soma das idades de ${cat.name} e ${dog.name} é ${cat.age+dog.age}.`
+}
+
+
+console.log(sumAges())
 
 /*
   08
