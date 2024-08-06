@@ -26,7 +26,7 @@ function ageNow(){
   return age
 }
 
-console.log(ageNow())
+//console.log(ageNow())
 
 /*
   03
@@ -45,6 +45,25 @@ console.log(ageNow())
     - getColorsMessage, que é um método que retorna a mensagem  
       "O NOME_DO_CARRO está disponível nas cores COR_01, COR_02 e COR_03".
 */
+
+let car = {
+  name: 'Ferrari',
+  brand: 'Ferrari',
+  colors: ['azul','amarelo','vermelho'],
+  isRunning: true,
+  run: function(){
+    return `O ${this.name} está em movimento`
+  },
+  stop:function(){
+    return `O ${this.name} está parado`
+  },
+  getColorsMessage:function(){
+    return `O ${this.name} está disponível nas cores ${this.colors[0]}, ${this.colors[1]} e ${this.colors[2]}`
+  }
+}
+console.log(car.run())
+console.log(car.stop())
+console.log(car.getColorsMessage())
 
 /*
   04
