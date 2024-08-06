@@ -21,9 +21,9 @@ const name = "Jonatan";
   - Você sabe por que isso aconteceu?
 */
 
-function ageNow(){
-  let age = 29
-  return age
+function ageNow() {
+  let age = 29;
+  return age;
 }
 
 //console.log(ageNow())
@@ -47,23 +47,23 @@ function ageNow(){
 */
 
 let car = {
-  name: 'Ferrari',
-  brand: 'Ferrari',
-  colors: ['azul','amarelo','vermelho'],
+  name: "Ferrari",
+  brand: "Ferrari",
+  colors: ["azul", "amarelo", "vermelho"],
   isRunning: true,
-  run: function(){
-    return `O ${this.name} está em movimento`
+  run: function () {
+    return `O ${this.name} está em movimento`;
   },
-  stop:function(){
-    return `O ${this.name} está parado`
+  stop: function () {
+    return `O ${this.name} está parado`;
   },
-  getColorsMessage:function(){
-    return `O ${this.name} está disponível nas cores ${this.colors[0]}, ${this.colors[1]} e ${this.colors[2]}`
-  }
-}
-console.log(car.run())
-console.log(car.stop())
-console.log(car.getColorsMessage())
+  getColorsMessage: function () {
+    return `O ${this.name} está disponível nas cores ${this.colors[0]}, ${this.colors[1]} e ${this.colors[2]}`;
+  },
+};
+console.log(car.run());
+console.log(car.stop());
+console.log(car.getColorsMessage());
 
 /*
   04
