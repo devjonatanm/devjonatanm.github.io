@@ -52,18 +52,24 @@ let car = {
   colors: ["azul", "amarelo", "vermelho"],
   isRunning: true,
   run: function () {
+    if (this.isRunning === false) {
+      this.isRunning = true;
+    }
     return `O ${this.name} está em movimento`;
   },
   stop: function () {
+    if (this.isRunning === true) {
+      this.isRunning = false;
+    }
     return `O ${this.name} está parado`;
   },
   getColorsMessage: function () {
     return `O ${this.name} está disponível nas cores ${this.colors[0]}, ${this.colors[1]} e ${this.colors[2]}`;
   },
 };
-console.log(car.run());
-console.log(car.stop());
-console.log(car.getColorsMessage());
+//console.log(car.run());
+//console.log(car.stop());
+//console.log(car.getColorsMessage());
 
 /*
   04
@@ -71,17 +77,29 @@ console.log(car.getColorsMessage());
   - Faça o carro andar e exiba no console se ele realmente está em movimento.
 */
 
+car.stop() // 'O Ferrari está parado'
+car.isRunning // false
+car.run() // 'O Ferrari está em movimento'
+car.isRunning // true
+
 /*
   05
 
   - Faça o carro parar e exiba no console se ele realmente está parado.
 */
 
+car.stop() // 'O Ferrari está parado'
+car.isRunning // false
+car.run() // 'O Ferrari está em movimento'
+car.isRunning // true
+
 /*
   06
 
   - Exiba, no console, a mensagem com as cores do carro.
 */
+
+console.log(car.getColorsMessage());
 
 /*
   07
