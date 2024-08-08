@@ -47,7 +47,7 @@ function ageNow() {
 */
 
 let car = {
-  name: "Ferrari",
+  name: "F8 SPIDER",
   brand: "Ferrari",
   colors: ["azul", "amarelo", "vermelho"],
   isRunning: true,
@@ -107,3 +107,5 @@ console.log(car.getColorsMessage());
   - Exiba, no console, a mensagem "O carro é um MARCA_DO_CARRO NOME_DO_CARRO";
   - Utilize a notação de colchetes para acessar as propriedades do carro.
 */
+
+console.log(`O carro é um ${car.brand} ${car.name}`)
