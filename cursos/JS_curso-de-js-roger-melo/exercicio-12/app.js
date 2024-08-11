@@ -74,9 +74,9 @@ const youtubeUser = {
 };
 
 console.log("Vídeos recentes de Roger Melo:");
-for (let i = 0; i < youtubeUser.recentVideos.length; i++) {
+for (let i = 0; i < youtubeUser.videos.recentVideos.length; i++) {
   console.log(
-    `${youtubeUser.recentVideos[i].title}`
+    `${youtubeUser.videos.recentVideos[i].title}`
   );
 }
 
