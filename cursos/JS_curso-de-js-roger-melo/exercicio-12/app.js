@@ -27,12 +27,12 @@ const best2019Movies = [
   { title: "A Vida Invisível", directedBy: "Karim Aïnouz" },
 ];
 
-console.log("Segundo o site Omelete, os melhores filmes de 2019 são:");
+/* console.log("Segundo o site Omelete, os melhores filmes de 2019 são:");
 for (let i = 0; i < best2019Movies.length; i++) {
   console.log(
     `- ${best2019Movies[i].title}, dirigido por ${best2019Movies[i].directedBy}`
   );
-}
+} */
 
 /*
   02
@@ -72,6 +72,13 @@ const youtubeUser = {
     country: "Brasil",
   },
 };
+
+console.log("Vídeos recentes de Roger Melo:");
+for (let i = 0; i < youtubeUser.recentVideos.length; i++) {
+  console.log(
+    `${youtubeUser.recentVideos[i].title}`
+  );
+}
 
 /*
   03
