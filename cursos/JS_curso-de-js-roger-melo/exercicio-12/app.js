@@ -73,18 +73,20 @@ const youtubeUser = {
   },
 };
 
-console.log("Vídeos recentes de Roger Melo:");
+/* console.log("Vídeos recentes de Roger Melo:");
 for (let i = 0; i < youtubeUser.videos.recentVideos.length; i++) {
   console.log(
     `${youtubeUser.videos.recentVideos[i].title}`
   );
-}
+} */
 
 /*
   03
 
   - Exiba o valor do PI no console.
 */
+
+console.log(Math.PI)
 
 /*
   04
@@ -94,6 +96,7 @@ for (let i = 0; i < youtubeUser.videos.recentVideos.length; i++) {
 */
 
 const firstNumber = 8.3;
+console.log(Math.ceil(firstNumber))
 
 /*
   05
