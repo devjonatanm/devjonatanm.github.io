@@ -105,7 +105,8 @@ console.log(Math.ceil(firstNumber))
     forma padrão, e exiba-o no console.
 */
 
-const secondNumber = 3.5;
+const secondNumber = Math.ceil(3.5);
+console.log(secondNumber)
 
 /*
   06
@@ -114,7 +115,8 @@ const secondNumber = 3.5;
     console.
 */
 
-const thirdNumber = 8.9;
+const thirdNumber = Math.floor(8.9);
+console.log(thirdNumber)
 
 /*
   07
