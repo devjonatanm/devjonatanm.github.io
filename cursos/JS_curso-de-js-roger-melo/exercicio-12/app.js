@@ -125,6 +125,7 @@ console.log(thirdNumber)
 */
 
 const fourthNumber = 5.5;
+console.log(Math.trunc(fourthNumber))
 
 /*
   08
@@ -132,3 +133,5 @@ const fourthNumber = 5.5;
   - A cada vez que o index.html for carregado, exiba no console um número  
     aleatório de 0 à 10, incluindo 0 e 10.
 */
+
+console.log(Math.floor(Math.random() * 11))
