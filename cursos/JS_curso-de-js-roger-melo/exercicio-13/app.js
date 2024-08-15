@@ -15,7 +15,7 @@ const getCatInfo = () => {
   return [name,age,color]
 }
 
-console.log(`${getCatInfo()[0]} é um gato ${getCatInfo()[2]} de ${getCatInfo()[1]} anos.`)
+//console.log(`${getCatInfo()[0]} é um gato ${getCatInfo()[2]} de ${getCatInfo()[1]} anos.`)
 
 /*
   02
@@ -32,7 +32,9 @@ const external = () => {
     const extraInternal = () => {
       console.log(movie.toUpperCase())
     }
+    return extraInternal()
   }
+  return internal()
 }
 
 external()
