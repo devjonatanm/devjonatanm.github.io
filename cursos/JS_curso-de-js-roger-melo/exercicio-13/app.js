@@ -37,7 +37,7 @@ const external = () => {
   return internal()
 }
 
-external()
+//external()
 
 /*
   03
@@ -49,7 +49,7 @@ external()
 */
 
 let randomNumbers = [3, 2, 1]
-console.log(randomNumbers.reverse())
+//console.log(randomNumbers.reverse())
 
 /*
   04
@@ -64,6 +64,8 @@ let crazyArray = [
   function getMessage () { return 'hi' },
   [ 5, 96, 53  ]
 ]
+crazyArray.shift()
+console.log(crazyArray)
 
 /*
   05
