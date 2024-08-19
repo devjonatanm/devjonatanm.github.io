@@ -9,11 +9,11 @@
 */
 
 const getCatInfo = () => {
-  const name = 'Marcos'
-  let age = 3
-  const color = 'Cinza'
-  return [name,age,color]
-}
+  const name = "Marcos";
+  let age = 3;
+  const color = "Cinza";
+  return [name, age, color];
+};
 
 //console.log(`${getCatInfo()[0]} é um gato ${getCatInfo()[2]} de ${getCatInfo()[1]} anos.`)
 
@@ -26,16 +26,16 @@ const getCatInfo = () => {
 */
 
 const external = () => {
-  const movie = 'Parasite'
+  const movie = "Parasite";
 
   const internal = () => {
     const extraInternal = () => {
-      console.log(movie.toUpperCase())
-    }
-    return extraInternal()
-  }
-  return internal()
-}
+      console.log(movie.toUpperCase());
+    };
+    return extraInternal();
+  };
+  return internal();
+};
 
 //external()
 
@@ -48,7 +48,7 @@ const external = () => {
   Dica: procure pelo método reverse, no MDN.
 */
 
-let randomNumbers = [3, 2, 1]
+let randomNumbers = [3, 2, 1];
 //console.log(randomNumbers.reverse())
 
 /*
@@ -60,12 +60,14 @@ let randomNumbers = [3, 2, 1]
 */
 
 let crazyArray = [
-  { prop1: '1', prop2: '2' },
-  function getMessage () { return 'hi' },
-  [ 5, 96, 53  ]
-]
-crazyArray.shift()
-console.log(crazyArray)
+  { prop1: "1", prop2: "2" },
+  function getMessage() {
+    return "hi";
+  },
+  [5, 96, 53],
+];
+crazyArray.shift();
+//console.log(crazyArray)
 
 /*
   05
@@ -77,12 +79,14 @@ console.log(crazyArray)
 */
 
 const dogs = [
-  { name: 'Olivia', age: 3, gender: 'Female', breed: 'Maltês' },
-  { name: 'Zé', age: 2, gender: 'Male', breed: 'Pug' },
-  { name: 'Jade', age: 4, gender: 'Female', breed: 'Shiba inu' },
-  { name: 'Zequinha', age: 7, gender: 'Male', breed: 'Poodle' },
-  { name: 'Xica', age: 6, gender: 'Female', breed: 'Chihuahua' }
-]
+  { name: "Olivia", age: 3, gender: "Female", breed: "Maltês" },
+  { name: "Zé", age: 2, gender: "Male", breed: "Pug" },
+  { name: "Jade", age: 4, gender: "Female", breed: "Shiba inu" },
+  { name: "Zequinha", age: 7, gender: "Male", breed: "Poodle" },
+  { name: "Xica", age: 6, gender: "Female", breed: "Chihuahua" },
+];
+
+console.log(dogs.find((e) => e.name === "Zequinha"));
 
 /*
   06
