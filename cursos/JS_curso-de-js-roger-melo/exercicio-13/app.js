@@ -86,7 +86,7 @@ const dogs = [
   { name: "Xica", age: 6, gender: "Female", breed: "Chihuahua" },
 ];
 
-console.log(dogs.find((e) => e.name === "Zequinha"));
+//console.log(dogs.find((e) => e.name === "Zequinha"));
 
 /*
   06
@@ -119,6 +119,8 @@ console.log(dogs.find((e) => e.name === "Zequinha"));
     </article>
   </section>
 */
+console.log(document.querySelector('h1').textContent)
+console.log(document.querySelector('h1').className)
 
 /*
   07
