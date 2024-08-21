@@ -119,8 +119,8 @@ const dogs = [
     </article>
   </section>
 */
-console.log(document.querySelector('h1').textContent)
-console.log(document.querySelector('h1').className)
+//console.log(document.querySelector('h1').textContent)
+//console.log(document.querySelector('h1').className)
 
 /*
   07
@@ -129,3 +129,5 @@ console.log(document.querySelector('h1').className)
     página, através da classe deles;
   - Exiba esse NodeList no console.
 */
+
+console.log(document.querySelectorAll('.secondary-title'))
