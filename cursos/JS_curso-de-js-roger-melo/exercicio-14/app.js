@@ -5,7 +5,8 @@
     maiúsculas.
 */
 
-
+let a = document.querySelector('h1')
+a.innerText = a.textContent.toUpperCase()
 
 /*
   02
