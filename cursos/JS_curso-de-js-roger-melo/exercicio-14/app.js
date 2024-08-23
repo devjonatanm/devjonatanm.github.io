@@ -5,8 +5,8 @@
     maiúsculas.
 */
 
-let a = document.querySelector('h1')
-a.innerText = a.textContent.toUpperCase()
+let a = document.querySelector("h1");
+a.innerText = a.textContent.toUpperCase();
 
 /*
   02
@@ -15,12 +15,12 @@ a.innerText = a.textContent.toUpperCase()
   - Cada número deve estar dentro de uma <li> com a classe "number".
 */
 
-const numbers = [ 53, 24, 3, 8, 1, 6, 57, 80, 77, 98, 55 ]
-let conteudo = ''
-for(let i=0;i<numbers.length;i++){
-  conteudo += `<li>${numbers[i]}</li>`
+const numbers = [53, 24, 3, 8, 1, 6, 57, 80, 77, 98, 55];
+let conteudo = "";
+for (let i = 0; i < numbers.length; i++) {
+  conteudo += `<li>${numbers[i]}</li>`;
 }
-document.querySelector('.numbers').innerHTML = `<ul>${conteudo}</ul>`;
+document.querySelector(".numbers").innerHTML = `<ul>${conteudo}</ul>`;
 
 /*
   03
@@ -30,7 +30,13 @@ document.querySelector('.numbers').innerHTML = `<ul>${conteudo}</ul>`;
     - Se o número é ímpar, exiba-o na cor "pink".
 */
 
-
+for (let i = 0; i < numbers.length; i++) {
+  if (numbers[i] % 2 === 0) {
+    document.querySelectorAll("li")[i].style.backgroundColor = "lightblue";
+  }else{
+    document.querySelectorAll("li")[i].style.backgroundColor = "pink";
+  }
+}
 
 /*
   04
@@ -40,8 +46,6 @@ document.querySelector('.numbers').innerHTML = `<ul>${conteudo}</ul>`;
   P.s: a classe "body-background" já está declarada no style.css.
 */
 
-
-
 /*
   05
 
@@ -50,15 +54,11 @@ document.querySelector('.numbers').innerHTML = `<ul>${conteudo}</ul>`;
     do link do index.html.
 */
 
-
-
 /*
   06
 
   - Exiba o novo valor do atributo href do link no console.
 */
-
-
 
 /*
   07
@@ -67,15 +67,11 @@ document.querySelector('.numbers').innerHTML = `<ul>${conteudo}</ul>`;
     manipuladas via JS no h1.
 */
 
-
-
 /*
   08
 
   - Remova a classe "body-background", do elemento body.
 */
-
-
 
 /*
   09
