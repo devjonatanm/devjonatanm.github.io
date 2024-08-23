@@ -16,6 +16,11 @@ a.innerText = a.textContent.toUpperCase()
 */
 
 const numbers = [ 53, 24, 3, 8, 1, 6, 57, 80, 77, 98, 55 ]
+let conteudo = ''
+for(let i=0;i<numbers.length;i++){
+  conteudo += `<li>${numbers[i]}</li>`
+}
+document.querySelector('.numbers').innerHTML = `<ul>${conteudo}</ul>`;
 
 /*
   03
