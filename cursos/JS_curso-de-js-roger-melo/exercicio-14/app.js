@@ -46,6 +46,8 @@ for (let i = 0; i < numbers.length; i++) {
   P.s: a classe "body-background" já está declarada no style.css.
 */
 
+document.querySelector('body').classList.add('body-background')
+
 /*
   05
 
