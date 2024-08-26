@@ -62,6 +62,8 @@ document.querySelector('body').classList.add('body-background')
   - Exiba o novo valor do atributo href do link no console.
 */
 
+console.log(document.querySelector('a').getAttribute('href'))
+
 /*
   07
 
