@@ -71,11 +71,15 @@ console.log(document.querySelector('a').getAttribute('href'))
     manipuladas via JS no h1.
 */
 
+console.log(document.querySelector('h1').style)
+
 /*
   08
 
   - Remova a classe "body-background", do elemento body.
 */
+
+document.querySelector('body').classList.remove('body-background')
 
 /*
   09
