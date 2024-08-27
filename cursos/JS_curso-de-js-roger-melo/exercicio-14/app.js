@@ -33,7 +33,7 @@ document.querySelector(".numbers").innerHTML = `<ul>${conteudo}</ul>`;
 for (let i = 0; i < numbers.length; i++) {
   if (numbers[i] % 2 === 0) {
     document.querySelectorAll("li")[i].style.backgroundColor = "lightblue";
-  }else{
+  } else {
     document.querySelectorAll("li")[i].style.backgroundColor = "pink";
   }
 }
@@ -46,7 +46,7 @@ for (let i = 0; i < numbers.length; i++) {
   P.s: a classe "body-background" já está declarada no style.css.
 */
 
-document.querySelector('body').classList.add('body-background')
+document.querySelector("body").classList.add("body-background");
 
 /*
   05
@@ -62,7 +62,7 @@ document.querySelector('body').classList.add('body-background')
   - Exiba o novo valor do atributo href do link no console.
 */
 
-console.log(document.querySelector('a').getAttribute('href'))
+console.log(document.querySelector("a").getAttribute("href"));
 
 /*
   07
@@ -71,7 +71,7 @@ console.log(document.querySelector('a').getAttribute('href'))
     manipuladas via JS no h1.
 */
 
-console.log(document.querySelector('h1').style)
+console.log(document.querySelector("h1").style);
 
 /*
   08
@@ -79,7 +79,7 @@ console.log(document.querySelector('h1').style)
   - Remova a classe "body-background", do elemento body.
 */
 
-document.querySelector('body').classList.remove('body-background')
+document.querySelector("body").classList.remove("body-background");
 
 /*
   09
@@ -87,3 +87,5 @@ document.querySelector('body').classList.remove('body-background')
   - Se o link da página possuir uma classe "link", remova-a;
   - Não utilize o método remove() para fazer isso.
 */
+
+document.getElementsByTagName("a")[0].classList.toggle("link");
