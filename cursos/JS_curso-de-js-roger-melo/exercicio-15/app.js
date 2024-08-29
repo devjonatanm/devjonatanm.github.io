@@ -18,11 +18,15 @@ console.log(document.querySelector("ul"));
     e exiba-o no console;
 */
 
+console.log(document.querySelector('h2').parentElement)
+
 /*
   03
 
   - Descubra quem é o próximo elemento irmão do h1 e exiba-o no console;
 */
+
+console.log(document.querySelector('h2').nextElementSibling)
 
 /*
   04
