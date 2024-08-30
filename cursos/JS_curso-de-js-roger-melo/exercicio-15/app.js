@@ -18,7 +18,7 @@ console.log(document.querySelector("ul"));
     e exiba-o no console;
 */
 
-console.log(document.querySelector('h2').parentElement)
+console.log(document.querySelector("h2").parentElement);
 
 /*
   03
@@ -26,7 +26,7 @@ console.log(document.querySelector('h2').parentElement)
   - Descubra quem é o próximo elemento irmão do h1 e exiba-o no console;
 */
 
-console.log(document.querySelector('h2').nextElementSibling)
+console.log(document.querySelector("h2").nextElementSibling);
 
 /*
   04
@@ -34,12 +34,18 @@ console.log(document.querySelector('h2').nextElementSibling)
   - Descubra quem é o irmão anterior da ul e exiba-o no console;
 */
 
+console.log(document.querySelector("ul").previousElementSibling);
+
 /*
   05
 
   - Quando um clique acontecer em alguma das lis, faça com que a li clicada seja  
     exibida no console.
 */
+
+document.querySelectorAll("li")[0].addEventListener("click", function () {
+  return console.log("ahhahaah");
+});
 
 /*
   06
