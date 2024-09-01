@@ -43,9 +43,12 @@ console.log(document.querySelector("ul").previousElementSibling);
     exibida no console.
 */
 
-document.querySelectorAll("li")[0].addEventListener("click", function () {
-  return console.log("ahhahaah");
-});
+for(let i=0;i<document.querySelectorAll("li").length;i++){
+  document.querySelectorAll("li")[i].addEventListener("click", function () {
+    return console.log(document.querySelectorAll("li")[i].textContent);
+  });
+}
+
 
 /*
   06
@@ -68,6 +71,12 @@ const videos = [
     length: "00:02:55",
   },
 ];
+
+function adicionar() {
+  for (let i = 0; i < videos.length; i++) {
+    document.querySelector("ul").innerHTML += `<li>${videos[i].name}</li>`;
+  }
+}
 
 /*
   07
