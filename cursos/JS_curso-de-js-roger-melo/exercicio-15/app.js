@@ -84,3 +84,9 @@ function adicionar() {
   - Se um clique no h1 acontecer, faça com que todos os elementos dentro do body 
     sejam removidos.
 */
+
+document.querySelector('h1').addEventListener('click',function(){
+  document.getElementsByTagName('body')[0].remove()
+})
+
+
